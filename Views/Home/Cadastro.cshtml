@@ -1,0 +1,26 @@
+@model List<Usuario>
+    
+<h2>Usuario  Cadastrado com suceso</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Genero</th>
+        </tr>
+    </thead>    
+    <tbody>
+        @foreach (Usuario u in Model)
+        {
+            <tr>
+            <td>@u.Nome</td>
+            <td>@u.Email</td>
+            <td>@u.Genero</td>
+            </tr>    
+        }
+    </tbody>
+    
+</table>
+
+<a href="/">Voltar ao cadastro</a>
