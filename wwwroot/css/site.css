@@ -10,12 +10,20 @@ a.navbar-brand {
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
+  text-decoration: none;
+  
+}
+
+input {
+ padding: 0.65em;
 }
 
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+  padding: 1em;
+  cursor: pointer;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -54,18 +62,21 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+
+.box-main{
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  border-radius: 30px;
+  padding: 30px;
 }
