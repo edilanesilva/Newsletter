@@ -1,5 +1,5 @@
 # Newsletter
-<p>Aplicação simples de cadastro de usuario para newsletter MVC,<br> utilizando uma simulação de estrutura de lista no model</p>
+<p>Aplicação simples de cadastro de usuario para newsletter MVC,<br> utilizando uma simulação  estrutura de lista no model</p>
 
 
 
